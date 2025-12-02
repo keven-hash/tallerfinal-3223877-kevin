@@ -1,0 +1,6 @@
+# Reemplaza 'Install dependencies (Prettier)' con esto:
+- name: Install dependencies
+  run: npm install
+# Reemplaza 'Run Prettier check' con esto:
+- name: Run Prettier check
+  run: npx prettier --check .
