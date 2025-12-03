@@ -1,23 +1,6 @@
-name: CI Workflow
-
-on:
-  push:
-    branches:
-      - 'feat/**'
-      - main
-jobs:
-  lint-and-test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-      - name: Install dependencies (Prettier)
-        run: npm install prettier --global
-      - name: Run Prettier check
-        run: prettier --check .
-      - name: Run Tests
-        run: node tests/suma.test.js
+# Reemplaza 'Install dependencies (Prettier)' con esto:
+- name: Install dependencies
+  run: npm install
+# Reemplaza 'Run Prettier check' con esto:
+- name: Run Prettier check
+  run: npx prettier --check .

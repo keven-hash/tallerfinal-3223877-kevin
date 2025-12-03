@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "prettier": "^3.7.3"
+  },
+  "name": "tallerfinal-3223877-kevin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keven-hash/tallerfinal-3223877-kevin.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/keven-hash/tallerfinal-3223877-kevin/issues"
+  },
+  "homepage": "https://github.com/keven-hash/tallerfinal-3223877-kevin#readme"
+}
